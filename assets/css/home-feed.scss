@@ -1,0 +1,43 @@
+$theme-color: #77D2D2;
+$theme-bg: #D1D2D8;
+$white: #fff;
+
+html {
+  height: 100%;
+  overflow-x: hidden;
+}
+body {
+  min-height: 100%;
+	background: $theme-bg !important;
+}
+
+#home-feed{
+	min-height: 100%;
+	#nav{
+		background: $theme-color;
+		color: $white;
+		box-shadow: 0px 0px 10px 0px rgba(0,0,0,.5);
+
+		.mitem{
+			padding: 10px 0;
+			text-align: center;
+		}
+		.is-active{
+	    box-shadow: 0px -4px 0px $white inset;
+	    color: $white;
+		}
+	}
+	
+	#feed-container{
+	}
+
+	.text-center{
+		text-align: center;
+	}
+
+	.padlr30{ padding: 0 30px;	}
+	.maxcont{
+		max-width: 600px;
+		margin: 0 auto;
+	}
+}

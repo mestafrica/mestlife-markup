@@ -1,0 +1,42 @@
+html {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  min-height: 100%;
+  background: #D1D2D8 !important;
+}
+
+#home-feed {
+  min-height: 100%;
+}
+
+#home-feed #nav {
+  background: #77D2D2;
+  color: #fff;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+#home-feed #nav .mitem {
+  padding: 10px 0;
+  text-align: center;
+}
+
+#home-feed #nav .is-active {
+  box-shadow: 0px -4px 0px #fff inset;
+  color: #fff;
+}
+
+#home-feed .text-center {
+  text-align: center;
+}
+
+#home-feed .padlr30 {
+  padding: 0 30px;
+}
+
+#home-feed .maxcont {
+  max-width: 600px;
+  margin: 0 auto;
+}
