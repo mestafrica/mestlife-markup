@@ -201,3 +201,29 @@ main .card .comments .view {
 main .card .comments .comment {
   margin-bottom: 1px;
 }
+
+footer {
+  height: 10vh;
+}
+
+footer nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 0.8em;
+  border-top: 1px solid #A5A4A9;
+  box-shadow: 10px 0px 3px #A5A4A9;
+}
+
+footer nav .btn i {
+  font-size: 1.7em;
+}
+
+footer nav .btn.active {
+  color: #77D2D2;
+}
