@@ -6,30 +6,85 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="theme-color" content="#D1D2D8">	
 		<link rel="stylesheet" href="../assets/css/home-feed.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="../assets/css/semantic.min.css">
+	  <script src="../assets/js/jquery.min.js"></script>
+	  <script src="../assets/js/semantic.min.js"></script>
 	</head>
 	<body>
 		<div id="home-feed">
-			<section id="nav" class="padlr30">
-				<div class="maxcont">
-					<div class="text-center">Home</div>
-					<div class="row">
-						<div class="col-xs-4">
-						 <div class="mitem is-active">All</div>
-						</div>
-						<div class="col-xs-4 mitem">Following</div>
-						<div class="col-xs-4 mitem">Official</div>
+			<div id="nav" class="padlr30">
+				<div class="maxcont container">
+					<br>
+					<div class="text-center fs1-5">Home</div>
+					<br>
+					<div class="ui equal width grid">
+					 	<div class="column mitem is-active">All</div>
+						<div class="column mitem">Following</div>
+						<div class="column mitem">Official</div>
 					</div>
 				</div>
-			</section>
-			<section id="feed-container">
-				<div class="maxcont">
-					<div id="status-bar" class="card"></div>
+			</div>
+			<div id="feed-container">
+				<div class="maxcont container">
+					<div class="status-card ui grid">
+						<div class="row">
+							<div class="three wide column">
+								<img src="../assets/img/me.jpg" class="thumb-img">
+							</div>
+							<div class="thirteen wide column">
+								<input type="text" placeholder="What's the latest?">
+							</div>
+						</div>
+					</div>
+					<div id="status-bar" class="mest-card">
+						<div class="card-head row">
+							<div class="column">
+								<i class="star icon"></i>PINNED POST
+							</div>
+						</div>
+						<div class="card-body ui grid">
+							<div class="row">
+								<div class="three wide column">
+									<img src="../assets/img/me.jpg" class="thumb-img">
+								</div>
+								<div class="thirteen wide column">
+									<div>MEST HQ</div>
+									<div>3 hr, Accra, Ghana</div>
+								</div>
+							</div>
+							<div id="post-body">
+								<div id="post-text" class="row">
+									jhfjhdfjhdfjhdfjhdfjhdfjhdfjhjjhsbusiubiuabsiubsaiubas
+								</div>
+								<div id="post-extra" class="row">
+									sdshdjhsjhsdjhsjhsdjh
+								</div>
+							</div>
+						</div>
+						<div class="card-end">
+							<hr class="marg1">
+							<div class="ui grid">
+								<div class="three wide column"><span>82</span> Like</div>
+								<div class="five wide column"><span>16</span> Comments</div>
+							</div>
+							<hr class="marg1">
+							<div class="ui equal width grid">
+								<div class="column"><i class="like icon"></i>Like</div>
+								<div class="column"><i class="comment icon"></i>Comment</div>
+								<div class="column"><i class="share icon"></i>Share</div>
+							</div>
+							<hr class="marg1">
+							<div class="row marg1">
+								View all 16 comments
+							</div>
+							<div class="row marg1">
+								<span>Eric Gee</span> Woot! will be there!<br>
+								<span>Yaw Bee</span> Woot! will be there!
+							</div>
+						</div>
+					</div>
 				</div>
-			</section>
+			</div>
 		</div>
 	</body>
 </html>
