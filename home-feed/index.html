@@ -7,6 +7,7 @@
 		<meta name="theme-color" content="#D1D2D8">	
 		<link rel="stylesheet" href="../assets/css/home-feed.css">
 		<link rel="stylesheet" href="../assets/css/semantic.min.css">
+		<link rel="stylesheet" href="../assets/css/icon.min.css">
 	  <script src="../assets/js/jquery.min.js"></script>
 	  <script src="../assets/js/semantic.min.js"></script>
 	</head>
@@ -36,10 +37,13 @@
 							</div>
 						</div>
 					</div>
-					<div id="status-bar" class="mest-card">
-						<div class="card-head row">
-							<div class="column">
-								<i class="star icon"></i>PINNED POST
+					<div class="mest-card">
+						<div class="card-head ui equal width grid">
+							<div class="row">
+								<div class="column">
+									<i class="star icon"></i>PINNED POST
+								</div>
+								<div class="float-rt"><i class="remove icon side-icon"></i></div>
 							</div>
 						</div>
 						<div class="card-body ui grid">
@@ -48,22 +52,32 @@
 									<img src="../assets/img/me.jpg" class="thumb-img">
 								</div>
 								<div class="thirteen wide column">
-									<div>MEST HQ</div>
-									<div>3 hr, Accra, Ghana</div>
+									<div class="name">MEST HQ</div>
+									<div class="time-location">3 hr, Accra, Ghana</div>
 								</div>
+								<div class="float-rt"><i class="ellipsis vertical icon side-icon"></i></div>
 							</div>
-							<div id="post-body">
-								<div id="post-text" class="row">
+							<div class="post-body row">
+								<div class="post-text row">
 									jhfjhdfjhdfjhdfjhdfjhdfjhdfjhjjhsbusiubiuabsiubsaiubas
 								</div>
-								<div id="post-extra" class="row">
-									sdshdjhsjhsdjhsjhsdjh
+								<div class="post-extra">
+									<div class="material-card">
+										<div class="img"><img src="../assets/img/concert.jpg"></div>
+										<div class="text">
+											<span>sdshdjhsjhsdjhsjhsdjh</span>
+											<div class="extra-link">
+												eventbrite.com
+											</div>
+										</div>
+									</div>
+									
 								</div>
 							</div>
 						</div>
 						<div class="card-end">
 							<hr class="marg1">
-							<div class="ui grid">
+							<div class="ui grid black">
 								<div class="three wide column"><span>82</span> Like</div>
 								<div class="five wide column"><span>16</span> Comments</div>
 							</div>
@@ -77,7 +91,49 @@
 							<div class="row marg1">
 								View all 16 comments
 							</div>
+							<div class="row marg1 black">
+								<span>Eric Gee</span> Woot! will be there!<br>
+								<span>Yaw Bee</span> Woot! will be there!
+							</div>
+						</div>
+					</div>
+					<div class="mest-card">
+						<div class="card-head ui equal width grid">
+							<div class="row">
+								<div class="column">
+									<i class="marker icon"></i>LOCATION CHANGE
+								</div>
+							</div>
+						</div>
+						<div class="card-body ui grid">
+							<div class="row location-grid" style="background: url('../assets/img/madrid.jpg');">
+								<div class="three wide column">
+									<img src="../assets/img/me.jpg" class="thumb-img">
+								</div>
+								<div class="thirteen wide column">
+									<div class="name">MEST HQ</div>
+									<div class="time-location">3 hr, Accra, Ghana</div>
+								</div>
+								<div class="float-rt"><i class="ellipsis vertical icon side-icon"></i></div>
+							</div>
+						</div>
+						<div class="card-end">
+							<hr class="marg1">
+							<div class="ui grid black">
+								<div class="three wide column"><span>82</span> Like</div>
+								<div class="five wide column"><span>16</span> Comments</div>
+							</div>
+							<hr class="marg1">
+							<div class="ui equal width grid">
+								<div class="column"><i class="like icon"></i>Like</div>
+								<div class="column"><i class="comment icon"></i>Comment</div>
+								<div class="column"><i class="share icon"></i>Share</div>
+							</div>
+							<hr class="marg1">
 							<div class="row marg1">
+								View all 16 comments
+							</div>
+							<div class="row marg1 black">
 								<span>Eric Gee</span> Woot! will be there!<br>
 								<span>Yaw Bee</span> Woot! will be there!
 							</div>

@@ -1,0 +1,198 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+html {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  min-height: 100%;
+  background: #D1D2D8 !important;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+#home-feed {
+  min-height: 100%;
+}
+
+#home-feed #nav {
+  background: #77D2D2;
+  color: #fff;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+#home-feed #nav .mitem {
+  padding: 10px 0;
+  text-align: center;
+}
+
+#home-feed #nav .is-active {
+  box-shadow: 0px -4px 0px #fff inset;
+  color: #fff;
+}
+
+#home-feed #feed-container {
+  margin: 30px 0;
+}
+
+#home-feed .text-center {
+  text-align: center;
+}
+
+#home-feed .padlr30 {
+  padding: 0 30px;
+}
+
+#home-feed .maxcont {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#home-feed .maxcont .grid {
+  margin: 0;
+}
+
+#home-feed .padtb20 {
+  margin: 20px 0;
+}
+
+#home-feed .fs1-5 {
+  font-size: 1.5em;
+}
+
+#home-feed .status-card, #home-feed .mest-card {
+  background: #fff;
+  color: #333;
+  min-height: 50px;
+  font-size: 1.2em;
+}
+
+#home-feed .status-card input, #home-feed .mest-card input {
+  background: none;
+  border: none;
+}
+
+#home-feed .mest-card {
+  margin: 10px 0 !important;
+}
+
+#home-feed .mest-card .side-icon {
+  color: #ccc;
+  font-size: 1.5em;
+}
+
+#home-feed .mest-card .card-head {
+  color: #77D2D2;
+  border-bottom: solid 1px #D1D2D8;
+  font-size: 0.7em;
+}
+
+#home-feed .mest-card .card-body {
+  font-weight: 600;
+  color: 333;
+}
+
+#home-feed .mest-card .card-body .location-grid {
+  color: #fff;
+  text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.4);
+}
+
+#home-feed .mest-card .card-body .location-grid .side-icon {
+  color: inherit !important;
+}
+
+#home-feed .mest-card .card-body .name {
+  font-size: 1.2em;
+}
+
+#home-feed .mest-card .card-body .time-location {
+  color: #aaa;
+  font-weight: 300;
+  font-size: 0.7em;
+}
+
+#home-feed .mest-card .card-body .post-body {
+  padding: 1rem;
+}
+
+#home-feed .mest-card .card-body .post-body .post-extra {
+  margin: 5px 0;
+  width: 100%;
+}
+
+#home-feed .mest-card .card-body .post-body .post-extra .img, #home-feed .mest-card .card-body .post-body .post-extra img {
+  width: 100%;
+  max-height: 400px;
+}
+
+#home-feed .mest-card .card-body .post-body .post-extra .text {
+  padding: 0.5rem 1rem;
+  font-weight: 800;
+  font-size: 1.5em;
+}
+
+#home-feed .mest-card .card-body .post-body .post-extra .text .extra-link {
+  margin: 0.5rem 0 0 0;
+  color: #aaa;
+  font-weight: 300;
+  font-size: 0.5em;
+}
+
+#home-feed .mest-card .card-body .material-card {
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 2px 2px;
+}
+
+#home-feed .mest-card .card-end {
+  color: #a5a5a5;
+  font-size: 0.8em;
+  padding: 0 0 1rem 0;
+}
+
+#home-feed .mest-card .card-end hr {
+  border: solid 1px #f5f5f5;
+  margin: -0.3rem 1rem;
+}
+
+#home-feed .mest-card .card-end .black {
+  color: #333;
+  font-weight: 300;
+}
+
+#home-feed .mest-card .card-end span {
+  color: #333;
+  font-weight: 800;
+}
+
+#home-feed .mest-card .card-end i {
+  color: #9a9a9a;
+}
+
+#home-feed .mest-card #post-body {
+  padding: 0 1rem;
+}
+
+#home-feed .mest-card #post-body #post-text {
+  margin: 1rem 0;
+}
+
+#home-feed .mest-card span {
+  font-weight: 800;
+}
+
+#home-feed .pad20 {
+  padding: 20px;
+}
+
+#home-feed .marg1 {
+  margin: 0.8rem 1rem;
+}
+
+#home-feed .thumb-img {
+  width: 50px;
+}
+
+#home-feed .float-rt {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
