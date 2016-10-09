@@ -70,16 +70,28 @@ body {
 
 	.mest-card{
 		margin: 10px 0 !important;
+		.side-icon{
+			color: #ccc;
+			font-size: 1.5em;
+		}
 		.card-head{
 			color: $theme-color;
 			border-bottom: solid 1px $theme-bg;
 			font-size: 0.7em;
+			//row{padding: 0.5rem 0 !important}			
 		}
 
 		.card-body{
-			margin: 10px 0;
+			//margin: 10px 0;
 			font-weight: 600;
 			color: 333;
+			.location-grid{
+				color: #fff;
+				text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.4);
+				.side-icon{
+					color: inherit !important;
+				}
+			}
 			.name{
 				font-size: 1.2em;
 			}
