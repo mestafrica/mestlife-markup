@@ -1,3 +1,4 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto';
 html {
   height: 100%;
   overflow-x: hidden;
@@ -6,6 +7,7 @@ html {
 body {
   min-height: 100%;
   background: #D1D2D8 !important;
+  font-family: 'Roboto', sans-serif !important;
 }
 
 #home-feed {
@@ -81,6 +83,75 @@ body {
 
 #home-feed .mest-card .card-body {
   margin: 10px 0;
+  font-weight: 600;
+  color: 333;
+}
+
+#home-feed .mest-card .card-body .name {
+  font-size: 1.2em;
+}
+
+#home-feed .mest-card .card-body .time-location {
+  color: #aaa;
+  font-weight: 300;
+  font-size: 0.7em;
+}
+
+#home-feed .mest-card .card-body .post-body {
+  padding: 1rem;
+}
+
+#home-feed .mest-card .card-body .post-body .post-extra {
+  margin: 5px 0;
+  width: 100%;
+}
+
+#home-feed .mest-card .card-body .post-body .post-extra .img, #home-feed .mest-card .card-body .post-body .post-extra img {
+  width: 100%;
+  max-height: 400px;
+}
+
+#home-feed .mest-card .card-body .post-body .post-extra .text {
+  padding: 0.5rem 1rem;
+  font-weight: 800;
+  font-size: 1.5em;
+}
+
+#home-feed .mest-card .card-body .post-body .post-extra .text .extra-link {
+  margin: 0.5rem 0 0 0;
+  color: #aaa;
+  font-weight: 300;
+  font-size: 0.5em;
+}
+
+#home-feed .mest-card .card-body .material-card {
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 2px 2px;
+}
+
+#home-feed .mest-card .card-end {
+  color: #a5a5a5;
+  font-size: 0.8em;
+  padding: 0 0 1rem 0;
+}
+
+#home-feed .mest-card .card-end hr {
+  border: solid 1px #f5f5f5;
+  margin: -0.3rem 1rem;
+}
+
+#home-feed .mest-card .card-end .black {
+  color: #333;
+  font-weight: 300;
+}
+
+#home-feed .mest-card .card-end span {
+  color: #333;
+  font-weight: 800;
+}
+
+#home-feed .mest-card .card-end i {
+  color: #9a9a9a;
 }
 
 #home-feed .mest-card #post-body {
@@ -100,9 +171,15 @@ body {
 }
 
 #home-feed .marg1 {
-  margin: 0 1rem;
+  margin: 0.8rem 1rem;
 }
 
 #home-feed .thumb-img {
   width: 50px;
+}
+
+#home-feed .float-rt {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
 }
