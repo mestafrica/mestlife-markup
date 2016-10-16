@@ -80,20 +80,30 @@ body {
   font-size: 1.5em;
 }
 
+#home-feed .open .mest-card, #home-feed .open .status-card {
+  opacity: 1;
+  transform: translateY(0em);
+}
+
 #home-feed .status-card, #home-feed .mest-card {
+  transform: translateY(10em);
+  opacity: 0;
   background: #fff;
   color: #333;
   min-height: 50px;
   font-size: 1.2em;
+  transition: opacity 0.3s ease-in-out, transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-#home-feed .status-card input, #home-feed .mest-card input {
+#home-feed .status-card input, #home-feed .status-card textarea, #home-feed .mest-card input, #home-feed .mest-card textarea {
   background: none;
   border: none;
+  width: 100%;
 }
 
-#home-feed .status-card input:focus, #home-feed .mest-card input:focus {
+#home-feed .status-card input:focus, #home-feed .status-card input:active, #home-feed .status-card input:selection, #home-feed .status-card textarea:focus, #home-feed .status-card textarea:active, #home-feed .status-card textarea:selection, #home-feed .mest-card input:focus, #home-feed .mest-card input:active, #home-feed .mest-card input:selection, #home-feed .mest-card textarea:focus, #home-feed .mest-card textarea:active, #home-feed .mest-card textarea:selection {
   border: 0px;
+  background: none;
 }
 
 #home-feed .mest-card {

@@ -61,18 +61,29 @@ body {
 
 	.fs1-5{ font-size: 1.5em; }
 
+		.open .mest-card, .open .status-card{
+		  opacity: 1;
+		  transform: translateY(0em);
+		}
+
 	.status-card, .mest-card{
+		transform: translateY(10em);
+	  opacity: 0;
 		background: $white;
 		color: #333;
 		min-height: 50px;
-		//margin: 10px;
 		font-size: 1.2em;
+		transition: 
+	    opacity .3s ease-in-out,
+	    transform .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
-		input{
+		input, textarea{
 			background: none;
 			border: none;
-			&:focus{
+			width: 100%;
+			&:focus, &:active, &:selection{
 				border: 0px;
+				background: none;
 			}
 		}
 
@@ -225,6 +236,7 @@ body {
 		}
 
 		span{font-weight: 800}
+
 	}
 
 	.pad20{padding: 20px;}
