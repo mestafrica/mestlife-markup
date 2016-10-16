@@ -10,6 +10,26 @@ body {
   font-family: 'Roboto', sans-serif !important;
 }
 
+.tcenter {
+  text-align: center;
+}
+
+.marg20 {
+  margin: 20px !important;
+}
+
+.z2 {
+  z-index: 2;
+}
+
+.white-text {
+  color: #fff !important;
+}
+
+.no-pad {
+  padding: 0px !important;
+}
+
 #home-feed {
   min-height: 100%;
 }
@@ -23,6 +43,7 @@ body {
 #home-feed #nav .mitem {
   padding: 10px 0;
   text-align: center;
+  cursor: pointer;
 }
 
 #home-feed #nav .is-active {
@@ -31,7 +52,7 @@ body {
 }
 
 #home-feed #feed-container {
-  margin: 30px 0;
+  margin: 1rem 0;
 }
 
 #home-feed .text-center {
@@ -71,12 +92,15 @@ body {
   border: none;
 }
 
+#home-feed .status-card input:focus, #home-feed .mest-card input:focus {
+  border: 0px;
+}
+
 #home-feed .mest-card {
   margin: 10px 0 !important;
 }
 
 #home-feed .mest-card .side-icon {
-  color: #ccc;
   font-size: 1.5em;
 }
 
@@ -88,16 +112,17 @@ body {
 
 #home-feed .mest-card .card-body {
   font-weight: 600;
-  color: 333;
+  color: #333;
 }
 
 #home-feed .mest-card .card-body .location-grid {
+  background: rgba(0, 0, 0, 0.1);
   color: #fff;
   text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.4);
 }
 
-#home-feed .mest-card .card-body .location-grid .side-icon {
-  color: inherit !important;
+#home-feed .mest-card .card-body .location-grid i {
+  color: #ccc !important;
 }
 
 #home-feed .mest-card .card-body .name {
@@ -105,7 +130,7 @@ body {
 }
 
 #home-feed .mest-card .card-body .time-location {
-  color: #aaa;
+  color: #ccc;
   font-weight: 300;
   font-size: 0.7em;
 }
@@ -135,6 +160,73 @@ body {
   color: #aaa;
   font-weight: 300;
   font-size: 0.5em;
+}
+
+#home-feed .mest-card .card-body .profile-grid {
+  background: #77D2D2;
+  min-height: 200px;
+}
+
+#home-feed .mest-card .card-body .profile-grid .profile-img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin: 30px 0 -75px 0;
+}
+
+#home-feed .mest-card .card-body .profile-grid .profile-card-body {
+  background: #fff;
+  padding: 80px 10px 10px 10px;
+}
+
+#home-feed .mest-card .card-body .profile-grid .profile-card-body .main1 {
+  font-size: 1.8em;
+  margin: 0 0 5px 0;
+}
+
+#home-feed .mest-card .card-body .profile-grid .profile-card-body .main2 {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+#home-feed .mest-card .card-body .profile-grid .profile-card-body .sub1 {
+  font-size: 0.8em;
+  color: #aaa;
+  font-weight: 300;
+  margin: 0 0 -5px 0;
+}
+
+#home-feed .mest-card .card-body .profile-grid .profile-card-body button {
+  background: #fff;
+  color: #77D2D2;
+  font-size: 1.5em;
+  border: 2px solid #77D2D2;
+  padding: 10px 30px;
+  font-weight: 300;
+}
+
+#home-feed .mest-card .card-body .profile-grid hr {
+  margin: 0 -10px;
+  border: 1px #eee solid;
+}
+
+#home-feed .mest-card .card-body .profile-grid .affiliation {
+  text-align: left;
+  font-size: 1.2em;
+  font-weight: 300;
+  margin: 20px 0;
+  color: #aaa;
+}
+
+#home-feed .mest-card .card-body .profile-grid .affiliation .affiliation-item {
+  margin: 3px 0;
+  font-weight: 400;
+  font-size: 0.8em;
+}
+
+#home-feed .mest-card .card-body .profile-grid .affiliation .affiliation-item .affiliation-date {
+  font-weight: 300;
+  font-size: 0.7em;
 }
 
 #home-feed .mest-card .card-body .material-card {

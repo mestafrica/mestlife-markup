@@ -13,6 +13,12 @@ body {
 	font-family: 'Roboto', sans-serif !important;
 }
 
+.tcenter{text-align: center}
+.marg20{margin: 20px !important;}
+.z2{z-index: 2;}
+.white-text{color: #fff !important;}
+.no-pad{padding: 0px !important;}
+
 #home-feed{
 	min-height: 100%;
 	#nav{
@@ -23,6 +29,7 @@ body {
 		.mitem{
 			padding: 10px 0;
 			text-align: center;
+			cursor: pointer;
 		}
 		.is-active{
 	    box-shadow: 0px -4px 0px $white inset;
@@ -31,7 +38,7 @@ body {
 	}
 	
 	#feed-container{
-		margin: 30px 0;
+		margin: 1rem 0;
 	}
 
 	.text-center{
@@ -64,6 +71,9 @@ body {
 		input{
 			background: none;
 			border: none;
+			&:focus{
+				border: 0px;
+			}
 		}
 
 	}
@@ -71,7 +81,7 @@ body {
 	.mest-card{
 		margin: 10px 0 !important;
 		.side-icon{
-			color: #ccc;
+			//color: #ccc;
 			font-size: 1.5em;
 		}
 		.card-head{
@@ -84,19 +94,20 @@ body {
 		.card-body{
 			//margin: 10px 0;
 			font-weight: 600;
-			color: 333;
+			color: #333;
 			.location-grid{
+				background: rgba(0,0,0,0.1);
 				color: #fff;
 				text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.4);
-				.side-icon{
-					color: inherit !important;
+				i{
+					color: #ccc !important;
 				}
 			}
 			.name{
 				font-size: 1.2em;
 			}
 			.time-location{
-				color: #aaa;
+				color: #ccc;
 				font-weight: 300;
 				font-size: 0.7em;
 			}
@@ -118,6 +129,65 @@ body {
 							color: #aaa;
 							font-weight: 300;
 							font-size: 0.5em;
+						}
+					}
+				}
+
+			}
+
+			.profile-grid{
+				background: $theme-color;
+				min-height: 200px;
+				.profile-img{
+					border-radius: 50%;
+					width: 150px;
+					height: 150px;
+					margin: 30px 0 -75px 0;
+				}
+				.profile-card-body{
+					background: #fff;
+					padding: 80px 10px 10px 10px;
+					.main1{
+						font-size: 1.8em;
+						margin: 0 0 5px 0;
+					}
+					.main2{
+						font-size: 1.2em;
+						font-weight: 500;
+					}
+					.sub1{
+						font-size: 0.8em;
+						color: #aaa;
+						font-weight: 300;
+						margin: 0 0 -5px 0;						
+					}
+
+					button{
+						background: #fff;
+						color: $theme-color;
+						font-size: 1.5em;
+						border: 2px solid $theme-color;
+						padding: 10px 30px;
+						font-weight: 300;
+					}
+				}
+				hr{
+					margin: 0 -10px;
+					border: 1px #eee solid
+				}
+				.affiliation{
+					text-align: left;
+					font-size: 1.2em;
+					font-weight: 300;
+					margin: 20px 0;
+					color: #aaa;
+					.affiliation-item{
+						margin: 3px 0;
+						font-weight: 400;
+						font-size: 0.8em;
+						.affiliation-date{
+							font-weight: 300;
+							font-size: 0.7em;							
 						}
 					}
 				}
